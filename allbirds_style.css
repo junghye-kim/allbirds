@@ -1,0 +1,156 @@
+body{
+  width: 100%;
+  height: 500%;
+  border: 5px solid red;
+  background: #faf9eb;
+  position: absolute;
+
+
+}
+
+.shoebox{
+  width: 100%;
+  height: 20%;
+  border: 3px solid blue;
+  margin-top: 5%;
+  position: absolute;
+  top:0%
+
+
+}
+
+.slide1{
+  width: 25%;
+  top:-10%;
+  left: 37.5%;
+  position: relative;
+  /* animation-name: opacityOnAndOff; */
+  animation-duration: 5s;
+  opacity: 0;
+  z-index: 1;
+
+
+}
+
+.slide2{
+  position: relative;
+  width: 50%;
+  top: 50%:
+  z-index: 2;
+  /* animation-name: opacityOnAndOff; */
+  animation-duration: 5s;
+  animation-delay: 5s;
+  opacity: 0;
+}
+
+.slide3{
+  position: relative;
+  width: 75%;
+  left: 12.5%;
+  top: -75%;
+  /* animation-name: fadeIn; */
+  animation-duration: 15s;
+  opacity: 1;
+  z-index: 3;
+
+}
+
+
+
+@keyframes opacityOnAndOff {
+    0% {
+        opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    65%{
+      opacity: 0;
+    }
+    75%{
+      opacity: 1;
+    }
+
+}
+
+.shoe{
+  width: 12%;
+  position: absolute;
+  z-index: 4;
+}
+
+.left{
+  top: 11%;
+  left: 28%;
+  animation: rotateL  18s forwards;
+
+}
+
+.right{
+  top: 9%;
+  left: 59%;
+  animation: rotateR  18s forwards;
+
+}
+
+
+
+@keyframes rotateR {
+  0% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 0;
+  }
+  58%{
+    opacity:1;
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg) translateY(-120%) translateX(200%);
+  }
+}
+
+@keyframes rotateL {
+  0% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 0;
+  }
+  58%{
+    opacity:1;
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg) translateY(-120%) translateX(-200%);
+  }
+}
+
+
+.intro{
+  position: absolute;
+  width: 70%;
+  left: 15%;
+  top: 25%;
+  border: 3px solid orange;
+}
+
+.hi{
+  width: 80%;
+}
+
+.text{
+  color: #1e306e;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
