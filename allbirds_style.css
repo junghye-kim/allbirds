@@ -360,6 +360,14 @@ h2{
   line-height: 1.6;
 }
 
+.pennant{
+  position: absolute;
+  top: 83%;
+  left: -8%;
+  width: 20%;
+  transform: rotate(-15deg);
+}
+
 .allbirds{
   width: 70%;
   height:7%;
@@ -391,4 +399,155 @@ h2{
   top: 115%;
   left: 15%;
   line-height: 1.6;
+}
+
+.click{
+  width: 15%;
+  top: 18%;
+  left: 83%;
+  position: absolute;
+  transform: rotate(10deg);
+}
+
+.bird1{
+  position: absolute;
+  width: 13%;
+  top: 36%;
+  left: -10%;
+
+}
+
+.bird2{
+  position: absolute;
+  width: 13%;
+  top: 34%;
+  left: 0%;
+
+}
+
+.bird3{
+  position: absolute;
+  width: 13%;
+  top: 49%;
+  right: -10%;
+
+}
+
+.cloud1{
+  position: absolute;
+  width: 20%;
+  top: 94%;
+  right: 50%;
+}
+
+.cloud2{
+  position: absolute;
+  width: 25%;
+  top: 98%;
+  left: -13%;
+}
+
+.cloud3{
+  position: absolute;
+  width: 25%;
+  top: 102%;
+  right: -10%;
+}
+
+.mountains{
+  position: absolute;
+  top: 78.5%;
+  width: 45%;
+  right: 5%;
+}
+
+.waves1{
+  position: absolute;
+  top:94%;
+  width: 25%;
+  left: 5%;
+}
+
+.waves2{
+  position: absolute;
+  top:93.2%;
+  width: 10%;
+  left: 30%;
+}
+
+.waves3{
+  position: absolute;
+  top:95%;
+  width: 10%;
+  left: 60%;
+}
+
+.waves4{
+  position: absolute;
+  top:94%;
+  width: 20%;
+  left: 80%;
+}
+
+.waves5{
+  position: absolute;
+  top:92.5%;
+  width: 10%;
+  left: 70%;
+}
+
+.shoe1{
+  position: absolute;
+  top: 121%;
+  width: 10%;
+  margin-bottom: 0%;
+}
+
+.shoe2{
+  position: absolute;
+  top: 121%;
+  width: 10%;
+  left: 12%;
+}
+
+.shoe3{
+  position: absolute;
+  top: 121%;
+  width: 10%;
+  left: 24%;
+}
+
+.shoe4{
+  position: absolute;
+  top: 121%;
+  width: 10%;
+  left: 36%;
+}
+
+.shoe5{
+  position: absolute;
+  top: 121%;
+  width: 10%;
+  left: 48%;
+}
+
+.shoe6{
+  position: absolute;
+  top: 121%;
+  width: 10%;
+  left: 60%;
+}
+
+.shoe7{
+  position: absolute;
+  top: 121%;
+  width: 10%;
+  left: 72%;
+}
+
+.shoe8{
+  position: absolute;
+  top: 121%;
+  width: 10%;
+  left: 84%;
 }
